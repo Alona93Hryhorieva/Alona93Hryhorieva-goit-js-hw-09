@@ -68,6 +68,7 @@ const images = [
 ];
 
 const gallery = document.querySelector('.gallery');
+
 const marcup = images
     .map(({ preview, description, original }) => {
         return `
@@ -80,7 +81,6 @@ const marcup = images
     }).join('');
 
 gallery.innerHTML = marcup;
-
 
 const lightbox = new SimpleLightbox('.gallery a', { 
  captionsData: 'alt',

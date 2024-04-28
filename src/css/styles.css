@@ -79,6 +79,7 @@ body {
   display: block;
   margin-bottom: 8px;
   color: #2e2f42;
+ font-family: "Montserrat", sans-serif;
 }
 
 /* Стилізація інпута  */
@@ -91,17 +92,21 @@ body {
 }
 
 .feedback-form input:hover {
-  border: 1px solid #000;
+  border: 1px solid rgba(0, 0, 0, 1);
+}
+
+.feedback-form input:hover {
+  border: 1px solid rgba(128, 128, 128, 1)
 }
 
 .feedback-form textarea {
   width: 360px;
   height: 80px;
   border: 1px solid #808080;
-}
-
-.feedback-form textarea:hover{
-  border: 1px solid #000;
+  resize: none;
+  display: block;
+  gap: 8px;
+  font-family: "Montserrat", sans-serif;
 }
 
 button {
@@ -117,37 +122,10 @@ button {
   color: #fff;
   background: #4e75ff;
   border: none;
+  font-family: "Montserrat", sans-serif;
 }
 
 button:hover {
   background: #6c8cff;
 }
 
-/* .change-color {
-  width: 148px;
-  margin-top: 0;
-}
-
-#controls button {
-  border-radius: 8px;
-  padding: 8px 16px;
-  width: 120px;
-  height: 40px;
-  margin-right: 16px;
-}
-
-#controls input {
-  border: 1px solid #808080;
-  border-radius: 8px;
-  padding: 8px 72px;  
-  width: 150px;
-  height: 40px;
-  margin-right: 16px;
-}
-
-#boxes {
-  margin-top: 48px;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 16px;
-}   */
